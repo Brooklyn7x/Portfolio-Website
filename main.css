@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+
+*{  
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,rgb(143, 188, 198), rgb(206, 203, 203));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
+
+}
+
+
+.theme-container{
+    background: white;
+    min-height: 80vh;
+    width: 85%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.4),rgba(255,255,255,0.1));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 3rem;
+    padding:1rem;
+    border-bottom: .1rem solid rgba(254, 251, 251, 0.998);
+   
+}

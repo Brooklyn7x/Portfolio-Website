@@ -1,0 +1,72 @@
+.about-box{
+    
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-box .about-img img{
+    height:15rem;
+    width:15rem;
+    border-radius: 30px;
+    border: 10px solid rgb(239, 239, 239);
+    background: transparent;
+    
+}
+
+
+.about-info{
+    
+    display: flex;
+    height: 70%;
+    width: 60%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
+
+.text{
+    flex: 1;
+   
+}
+.education{
+    flex: 1;
+    
+    width: 100%;
+}
+.about-info .about-subtitle{
+    
+    margin-left: 10px;
+    font-size: 1.5rem;
+
+}
+.about-info .about-text{
+   
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.education .education-title{
+    
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.998);
+    font-size: 40px;
+}
+.education-1{
+  
+    margin-top: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+.education-2{
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+   
+}
+
+
+

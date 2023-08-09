@@ -1,0 +1,67 @@
+.contact-container{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container .contact-info{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contact-container form{
+    height:350px;
+    width: 35%;
+}
+
+.contact-container form .box{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: .5rem;   
+}
+.contact-container .message{
+    height: 150px;
+}
+.contact-container .btn{
+    height: 40px;
+    width: 100px;
+    background: rgb(232, 232, 232);
+    border-radius: 5px;
+    margin-left: 305px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+}
+
+.contact-info h2{
+    font-size: 3rem;
+    color:rgb(23, 22, 22);
+    padding:10px;
+    font-weight: normal;
+    
+    
+}
+
+
+.contact-info h3{
+    font-size: 2rem;
+    color:rgb(24, 24, 23);
+    padding:10px;
+    font-weight: normal;
+    
+    
+}
+
+.contact-info h3 i{
+    padding-right: 1rem;
+}

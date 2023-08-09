@@ -1,0 +1,43 @@
+.project-container{
+    
+    display: grid;
+    height:250px
+    ;
+    grid-template-columns: repeat(auto-fit ,minmax(100px, 1fr));
+    grid-gap: 20px;
+    margin: 40px;
+    
+    
+}
+
+.box-i{
+    border: solid;
+    font-size: 20px;
+    text-align: center;
+    padding: 40p;
+    transition: backgroun 0.5s transform 0.5s;
+    border-radius: 5px;
+    border-color: rgb(225, 225, 225);
+    
+
+}
+.box-i h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.box-i p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.project-container  :hover{
+
+    background: rgb(244, 244, 244);
+    transform: translateY(-10px);
+
+}
